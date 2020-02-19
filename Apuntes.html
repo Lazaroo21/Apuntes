@@ -40,3 +40,40 @@
 
 <!-- En este caso añadimos el #, esto se utiliza cuando aun no tenemos el link que queremos añadir, pero aun así queremos que se visualice en la página. -->
 <a href="#">this links to freecodecamp.org</a>
+
+<!-- Podemos hacer que la imagen redireccione a un link clickando en la misma. Para ello debemos incluir el img src dentro de un anchor como en el ejemplo. -->
+<a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."></a>
+
+<!-- Ahora crearemos listados no ordenados, para ello usaremos la etiqueta <ul>, con esto definimos lo que contendrá nuestro listado.
+	 Con las etiquetas li dentro del listado, creamos entradas definidas por puntos, no hay un número limitado de entradas. -->
+<ul>
+  <li>Milk</li>
+  <li>Cheese</li>
+  <li>Bread</li>
+</ul>  
+
+<!-- La etiqueta ol, sirve para crear listas igual que ul, en este caso nos enumerará las entradas. -->
+
+<ol>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li> 
+</ol>
+
+<!-- Con la etiqueta input creamos un campo donde el usuario podra introducir el elemento solicitado, en este caso un texto. -->
+<input type="text">
+
+<!-- Añadiendo la funcion placeholder, específicando el texto a mostrar dentro del campo. -->
+<input type="text" placeholder="cat photo URL">
+
+<!-- La etiqueta form, sirve para asignar la creación de formularios, con la función action dentro de la etiqueta, específicamos donde queremos que se envíen los
+	 datos recogidos dentro del formulario. -->
+<form action="/submit-cat-photo">
+</form>
+
+<!-- Con la etiqueta button, añadimos un botón a nuestro formulario, utilizando la función type específicamos que recogerá los datos del formulario hacía la ruta
+	 de destino específicada. -->
+<button type="submit">Submit</button>
+
+<!-- Si añadimos required al fin de la etiqueta input, este especificará que se necesita información dentro del campo para enviarlo. -->
+<input type="text" placeholder="cat photo URL" required>
