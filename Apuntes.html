@@ -77,3 +77,17 @@
 
 <!-- Si añadimos required al fin de la etiqueta input, este especificará que se necesita información dentro del campo para enviarlo. -->
 <input type="text" placeholder="cat photo URL" required>
+
+<!-- Utilizando radio dentro del type en un label, creamos un boton de marcación, como los de una lista de tareas. 
+	 En este caso, nos centramos en name, "indoor-outdoor", realmente son dos nombres diferentes. Si colocamos todas las opciones que vamos a crear de esta manera,
+	 la web entenderá que únicamente quedará un check marcado a la vez entre esas opciones. -->
+<label for="outdoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor"> Outdoor 
+</label>
+
+<!-- Para crear una checkbox cuadrada, utilizamos el type checkbox. -->
+<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+
+<!-- -->
+
+
