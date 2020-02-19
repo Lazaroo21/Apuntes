@@ -1,0 +1,8 @@
+
+/* CSS */
+/*	En CSS se pueden trabajar de dos formas, la primera es específicar el style dentro del documento html en un apartado <style></style>,
+	el segundo método y más utilizado, especificando los estilos en un documento a parte, como un stylesheet.css */
+
+/* Aquí aplicamos color a un título de html desde el propio html. */
+<h2 style="color: blue;">CatPhotoApp</h2>
+
