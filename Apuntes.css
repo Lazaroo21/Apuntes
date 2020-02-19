@@ -6,3 +6,7 @@
 /* Aquí aplicamos color a un título de html desde el propio html. */
 <h2 style="color: blue;">CatPhotoApp</h2>
 
+/* 	Incluyendo formato CSS dentro del html file.
+	Para ello debemos crear un apartado <style> en la parte superior de nuestro código, */
+<style></style>
+
