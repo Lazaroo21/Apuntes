@@ -3,6 +3,12 @@
 /*	En CSS se pueden trabajar de dos formas, la primera es específicar el style dentro del documento html en un apartado <style></style>,
 	el segundo método y más utilizado, especificando los estilos en un documento a parte, como un stylesheet.css */
 
+
+/* APUNTE */
+/* Las dos formas, tanto la de style y la de <style></style>, se tiene que evitar y siempre ponerlas en un archivo aparte. 
+Los buscadores como google y bing tienen en cuenta que tengas pocas o ninguno de estos elementos en tu web.
+Si abusas de estos elementos te penalizan */
+
 /* Aquí aplicamos color a un título de html desde el propio html. */
 <h2 style="color: blue;">CatPhotoApp</h2>
 
