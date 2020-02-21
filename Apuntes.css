@@ -15,3 +15,11 @@ Si abusas de estos elementos te penalizan */
 /* 	Incluyendo formato CSS dentro del html file.
 	Para ello debemos crear un apartado <style> en la parte superior de nuestro código, */
 <style></style>
+
+/*  Para aplicar colores, por ejemplo a un título, únicamente debemos abrir un apartado para el elemento en cuestión dentro de nuestro stylesheet.
+	En este ejemplo aplicamos el color azul a un h2, si tenemos un id diferente asignado a nuestro elemento, debemos poner el id y no el elemento,
+	con esto podemos referirnos a un elemento en concreto y no al conjunto entero del mismo tipo. */
+h2{
+color: blue;
+}	
+
