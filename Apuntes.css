@@ -32,3 +32,12 @@ color: blue;
     color: red;
   }
 
+/* En este caso vamos a específicar el tamaño de fuente, utilizaremos la etiqueta font-size */
+h2 {		
+    font-size: 33px;
+  }
+
+/* Si queremos asignar un tipo de fuente, utilizaremos la función font-family para asignar el tipo de fuente que queremos utilizar. */
+ h2 {
+  font-family: sans-serif;
+} 
