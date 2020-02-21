@@ -23,3 +23,12 @@ h2{
 color: blue;
 }	
 
+/*	Para aplicar un estilo en un elemento html le añadiremos la etiqueta class= con el nombre que queramos darle. Una vez aplicado, en nuestro css 
+	crearemos un apartado como de costumbre, pero en este caso con el propio nombre que le hemos dado.
+	Esto se aplicará a todos los elementos que contengan el class en cuestión. */
+<h2 class="red-text">CatPhotoApp</h2> /* HTML */
+
+.red-text {			/* CSS */
+    color: red;
+  }
+
