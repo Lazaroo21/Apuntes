@@ -7,7 +7,7 @@
 /* APUNTE */
 /* Las dos formas, tanto la de style y la de <style></style>, se tiene que evitar y siempre ponerlas en un archivo aparte. 
 Los buscadores como google y bing tienen en cuenta que tengas pocas o ninguno de estos elementos en tu web.
-Si abusas de estos elementos te penalizan */
+Si abusas de estos elementos te penalizan. */
 
 /* Aquí aplicamos color a un título de html desde el propio html. */
 <h2 style="color: blue;">CatPhotoApp</h2>
@@ -41,3 +41,8 @@ h2 {
  h2 {
   font-family: sans-serif;
 } 
+
+/* 	Existe la opción de utilizar una fuente que no tenemos descargada, y utilizarla al vuelo desde google fonts. 
+	Para ello, añadiremos la fuente con el siguiente código antes de la etiqueta style, añadiendo el link a la fuente después de href. 
+	Una vez añadido, nos referiremos a la fuente, en la propiedad font-family con normalidad. */
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> 
