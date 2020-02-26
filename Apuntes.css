@@ -46,3 +46,10 @@ h2 {
 	Para ello, añadiremos la fuente con el siguiente código antes de la etiqueta style, añadiendo el link a la fuente después de href. 
 	Una vez añadido, nos referiremos a la fuente, en la propiedad font-family con normalidad. */
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> 
+
+/* 	Al utilizar fuentes en línea, puede darse el caso de que esta no este disponible, para evitar errores de visualización por causas ajenas, añadiremos
+	una segunda fuente para prevenir futuros errores. Es tan simple como añadir una segunda fuente, separada por un coma. */
+ h2 {
+  font-family: sans-serif, monospace;
+} 	
+
