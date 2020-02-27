@@ -53,3 +53,23 @@ h2 {
   font-family: sans-serif, monospace;
 } 	
 
+/*	Tenemos la opción de redimensionar las imagenes de manera muy sencilla en CSS, para ello únicamente aplicaremos el atributo width y con ello asignaremos 
+	el valor en píxeles. */
+.smaller-image {
+    width: 100px
+  }
+
+/*	A veces nos veremos en la necesidad de añadir más de una etiqueta a un elemento, por ejemplo class, para ello únicamente tenemos que añadirlas sin más, con 
+	un espacio de separación, así: <img class="smaller-image thick-green-border".
+	Para aplicar un marco a una imagen que tenemos etiquetada, únicamente añadiremos los valores border-XXX */
+.thick-green-border {
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
+  }
+
+
+
+
+
+
